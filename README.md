@@ -36,7 +36,8 @@ Formatting:
 * Strip trailing whitespace.
 
 
-== Syntax:
+Syntax:
+=====
 
 * Use def with parentheses when there are arguments.
 
@@ -66,7 +67,8 @@ Formatting:
 * Use OO regexps, and avoid =~ $0-9, $~, $` and $' when possible.
 
 
-== Naming:
+Naming:
+====
 
 * Use snake_case for methods.
 
@@ -89,7 +91,8 @@ Formatting:
 * Prefer map over collect, detect over find, select over find_all.
 
 
-== Comments:
+Comments:
+====
 
 * Comments longer than a word are capitalized and use punctuation.
   Use one space after periods.
@@ -97,7 +100,8 @@ Formatting:
 * Avoid superfluous comments.
 
 
-== The rest:
+The rest:
+=====
 
 * Avoid hashes-as-optional-parameters. Does the method do too much?
 
