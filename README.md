@@ -137,7 +137,8 @@ The rest:
 * Try to keep methods at no more than 10 lines long, and preferably
   5 or less.
 
-== General:
+General:
+====
 
 * Code in a functional way, avoid mutation when it makes sense.
 
