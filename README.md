@@ -17,7 +17,7 @@ Formatting:
 * Use Unix-style line endings.
 
 * Use spaces around operators, after commas, colons and semicolons,
-  around { and before }.
+  after { and before }.
 
 * No spaces after (, [ and before ], ).
 
@@ -60,6 +60,8 @@ Syntax:
 
 * Avoid return where not required.
 
+* Use return when returning a variable
+
 * Avoid line continuation (\) where not required.
 
 * Use ||= freely.
@@ -88,7 +90,7 @@ Naming:
 
 * When defining binary operators, name the argument "other".
 
-* Prefer map over collect, detect over find, select over find_all.
+* Prefer detect over find, select over find_all.
 
 
 Comments:
@@ -110,8 +112,6 @@ The rest:
 * Avoid long parameter lists.
 
 * Use def self.method to define singleton methods.
-
-* Add "global" methods to Kernel (if you have to) and make them private.
 
 * Avoid alias when alias_method will do.
 
@@ -139,8 +139,6 @@ The rest:
 
 General:
 ====
-
-* Code in a functional way, avoid mutation when it makes sense.
 
 * Try to have methods either return the state of the object and have
   no side effects, or return self and have side effects. This is
