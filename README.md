@@ -1,4 +1,5 @@
-= Dan Kubb's Ruby Style Guide
+Dan Kubb's Ruby Style Guide
+======
 
 You may not like all rules presented here, but they work very well for
 me and have helped producing high quality code. Everyone is free to
@@ -6,7 +7,8 @@ code however they want, write and follow their own style guides, but
 when you contribute to my code, please follow these rules:
 
 
-== Formatting:
+Formatting:
+=====
 
 * Use ASCII (or UTF-8, if you have to).
 
